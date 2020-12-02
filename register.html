@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Register </title>
+
+    <style>
+        #email {
+            margin-left: 35px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        #male {
+            margin-left: 18px;
+        }
+
+        #female-gender {
+            margin-left: 55px;
+        }
+
+        .male-gender {
+            margin-left: 18px;
+        }
+
+        #motorcycle,
+        #car {
+            margin-left: 140px;
+        }
+
+        #submit-btn {
+            text-align: center;
+        }
+
+        .register-form {
+            width: 370px;
+            padding: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* .register-form > form > fieldset {
+                padding: 20px 10px;
+                border: 1px solid black;
+            } */
+
+        #register-text {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .submit-btn {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        #flex-table {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="register-text"> Registration Form </p>
+    <div class="register-form">
+        <form name="my-form">
+            <fieldset>
+                <legend>Register Form</legend>
+                <label for="name"> Your Name: </label>
+                <input type="text" id="name" name="name" placeholder="Name" autofocus>
+                <br>
+                <label for="email"> Email: </label>
+                <input type="text" id="email" name="email" placeholder="Email">
+                <br>
+
+                <label for="gender"> Gender: </label>
+
+                <span> Male </span>
+                <input type="radio" id="gender" class="male-gender" name="gender" value="male" checked>
+                <br>
+                <span id="female-gender"> Female </span>
+                <input type="radio" id="gender" name="gender" value="female">
+                <br><br>
+
+                <span> You go to school by: </span>
+                <input type="checkbox" id="bus" name="bus" value="bus">
+                <label for="bus"> Bus </label>
+                <br>
+                <input type="checkbox" id="motorcycle" value="motorcycle">
+                <label for="motorcycle"> Motorcycle </label>
+                <br>
+                <input type="checkbox" id="car" name="car" value="car">
+                <label for="car"> Car </label>
+                <br>
+
+                <div class="submit-btn">
+                   <button type="button" id="submit-btn" onclick="validateForm()"> Submit </button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <script>
+        function validateForm() {
+            var form = document.forms["my-form"];
+            var name = form["name"].value;
+            var email = form["email"].value;
+
+            if (name != "") {
+                alert("You have typed " + name);
+            }
+
+            if (email != "" && email.indexOf("@") == -1) {
+                let email_tag = document.getElementById("email");
+                email_tag.style.backgroundColor = "red";
+                email_tag.style.color = "white";
+
+                let span_tag = document.createElement("span");
+                let content = document.createTextNode("Invalid!");
+                span_tag.appendChild(content);
+                span_tag.style.color = "red";
+                let fieldset_tag = document.querySelector("fieldset");
+                let br_tag = document.querySelector("br:nth-child(7)"); 
+                fieldset_tag.insertBefore(span_tag, br_tag);
+            }
+        }
+    </script>
+
+
+    <!-- Table -->
+    <div id="flex-table">
+        <table style="width: 180px; height: 60px; margin-top: 20px; color: blue; background-color: silver;">
+            <tr>
+                <th> Quick </th>
+                <th colspan="2"> brainsfox </th>
+                <th> jumps </th>
+            </tr>
+    
+            <tr>
+                <td rowspan="4"> over the </td>
+            <tr>
+                <td> lazy </td>
+                <td> dog </td>
+                <td> and </td>
+            </tr>
+    
+            <tr>
+                <td> then </td>
+                <td> it </td>
+                <td> fall </td>
+            </tr>
+    
+            <tr>
+                <td colspan="3"> prey to the lion </td>
+            </tr>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

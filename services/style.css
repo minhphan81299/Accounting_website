@@ -1,0 +1,23 @@
+#service:hover {
+    color: red !important;
+    text-decoration: underline;
+}
+
+.nav-item .dropdown-menu {
+    display: none;
+}
+
+.dropright .dropdown-menu {
+    display: none;
+
+}
+
+a.nav-link:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+/* .nav-item:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+} */

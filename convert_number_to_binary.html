@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Convert Number</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> Convert Decimal Number to Binary Number </h1>
+
+    <label for="num">Enter Number: (Between 1 and 9999)</label>
+    <input type="number" id="num" name="num" min="1" max="9999">
+    <input type="submit" onclick="convertNumber()">
+    <p id="result"></p>
+
+    <script>
+        function convertNumber(){
+            let num = document.getElementById("num").value;
+            let result = 0;
+            let remainder, i = 1, step = 1;
+
+            while (num != 0) {
+                remainder = num % 2;
+                console.log(
+                    'Step ' + step++ + ': ' + num + '/2' + ', remainder = ' + remainder + ', quotient = ' + parseInt(num / 2)
+                );
+
+                num = parseInt(num / 2);
+                result = result + remainder * i;
+                i *= 10;
+            }
+
+            document.getElementById('result').innerHTML = 'Result = ' + result;
+        }
+    </script>
+</body>
+</html>
