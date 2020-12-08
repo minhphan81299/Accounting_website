@@ -1,7 +1,7 @@
-#service:hover {
+/* #service:hover {
     color: red !important;
     text-decoration: underline;
-}
+} */
 
 .nav-item .dropdown-menu {
     display: none;
@@ -9,12 +9,25 @@
 
 .dropright .dropdown-menu {
     display: none;
+}
 
+.purple-text {
+    color: #6f42c1;
+    font-size: 18px;
+}
+
+.bold-text {
+    font-weight: 640;
 }
 
 a.nav-link:hover {
     background-color: #e2e6ea;
     border-color: #dae0e5;
+}
+
+.horizontal-navbar {
+    display: block;
+    height: 800px;
 }
 
 /* .nav-item:hover .dropdown-menu {

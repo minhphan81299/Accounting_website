@@ -9,7 +9,7 @@ $(document).ready(function() {
         // }
     });
 
-    $("#services, #service-menu").on("mouseleave", function(){
+    $("#service-menu").on("mouseleave", function(){
         $("#service-menu").slideUp();
     });
 

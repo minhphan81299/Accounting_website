@@ -16,7 +16,7 @@
 </div>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="index.php?page=welcome">Accounting</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@
                         </a>
 
                         <div class="dropdown-menu w-100" id="audit-menu">
-                            <a class="dropdown-item" href="#">Audit Services</a>
+                            <a class="dropdown-item" href="components/member.php?page=audit_services">Audit Services</a>
                             <a class="dropdown-item" href="#">Audit Quality</a>
                             <a class="dropdown-item" href="#">Audit Approach</a>  
                         </div>
