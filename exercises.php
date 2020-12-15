@@ -68,6 +68,7 @@
         //     echo "Error: " . $sql . "<br>" . $conn->error;
         // }
 
+        
         // Create a new DB with at least one table:
         
         // $sql = "CREATE DATABASE new_database";

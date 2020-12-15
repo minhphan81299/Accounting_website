@@ -15,6 +15,10 @@
     </div>
 </div>
 
+<?php
+    // Start the session:
+    session_start();
+?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="index.php?page=welcome">Accounting</a>
@@ -41,30 +45,32 @@
 
                 <div class="dropdown-menu w-50 text-center" id="service-menu">
 
-                    <a class="dropdown-item" href="components/member.php?page=solutions">Solutions for your business</a>
+                    <div>
+                        <a class="dropdown-item position-static pb-0" href="components/member.php?page=solutions">Solutions for your business</a>
+                    </div>
 
-                    <div class="dropdown-item dropright position-static" id="audit">
+                    <div class="dropdown-item dropright position-static pb-0" id="audit">
                         <a class="dropdown-item" href="#">
                             Audit and Assurance Services
                         </a>
 
-                        <div class="dropdown-menu w-100" id="audit-menu">
-                            <a class="dropdown-item" href="components/member.php?page=audit_services">Audit Services</a>
-                            <a class="dropdown-item" href="#">Audit Quality</a>
-                            <a class="dropdown-item" href="#">Audit Approach</a>  
+                        <div class="dropdown-menu w-100 text-center" id="audit-menu">
+                            <a class="dropdown-item position-static" href="components/member.php?page=audit_services">Audit Services</a>
+                            <a class="dropdown-item position-static" href="components/member.php?page=audit_quality">Audit Quality</a>
+                            <a class="dropdown-item position-static" href="components/member.php?page=audit_approach">Audit Approach</a>  
                         </div>
 
                     </div>
 
-                    <div class="dropdown-item dropright position-static" id="tax">
+                    <div class="dropdown-item dropright position-static pb-0" id="tax">
                         <a class="dropdown-item" href="#">
                             Tax Services
                         </a>
 
-                        <div class="dropdown-menu w-100" id="tax-menu">
-                            <a class="dropdown-item" href="#">Licensing services</a>
-                            <a class="dropdown-item" href="#">International tax planning</a>
-                            <a class="dropdown-item" href="#">Expatriate tax planning</a>  
+                        <div class="dropdown-menu w-100 text-center" id="tax-menu">
+                            <a class="dropdown-item" href="components/member.php?page=licensing_services">Licensing services</a>
+                            <a class="dropdown-item" href="components/member.php?page=international_tax_planning">International tax planning</a>
+                            <a class="dropdown-item" href="#" style="opacity: 0">Expatriate tax planning</a>  
                         </div>
                     </div>
                     <!-- <div class="dropdown-divider"></div>
@@ -76,8 +82,12 @@
                 <a class="nav-link" href="#">Meet our people</a>
             </li>
 
-            <!-- Login/Logout -->
             <li class="nav-item active">
+                <a class="nav-link" href="#">Locations</a>
+            </li>
+
+            <!-- Login/Logout -->
+            <!-- <li class="nav-item active">
                 <a class="nav-link" href="index.php?page=register">Register</a>
             </li>
 
@@ -87,14 +97,29 @@
 
             <li class="nav-item active">
                 <a class="nav-link" href="index.php?page=logout">Logout</a>
-            </li>
+            </li> -->
 
         </ul>
 
         <!-- Form Search -->
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+
+            <?php
+
+                if (isset($_SESSION['logged']) && $_SESSION['logged'] == true) {
+                    echo '
+                    <a href="index.php?page=logout" type="button" class="pl-0 btn bg-light">Logout</a>
+                    ';        
+                }
+                else {
+                    echo '
+                    <a href="index.php?page=register" type="button" class="pl-0 btn bg-light">Register</a>
+                    <a href="index.php?page=login" type="button" class="pl-0 btn bg-light">Login</a>
+                    ';
+                } 
+            ?>
         </form>
     </div>
 </nav>
