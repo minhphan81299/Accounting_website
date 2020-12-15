@@ -47,7 +47,9 @@
                 </div>
             </fieldset>
 
-            <button type="submit" class="btn btn-secondary m-2" name="submit_btn" value="login">Login</button>
+            <div class="text-center">
+                <button type="submit" class="btn btn-secondary m-2" name="submit_btn" value="login">Login</button>
+            </div>
 
             <div>
                 <?php

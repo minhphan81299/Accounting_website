@@ -46,7 +46,7 @@
                 echo "Register Successfully!";
 
                 $message = "Register successfully";
-                header("Location:welcome.php?message=$message");
+                header("Location:insights.php?message=$message");
             }
             else {
                 echo "Error" . $sql . "<br>" . $conn->error;
@@ -84,7 +84,7 @@
                 $_SESSION['username'] = str_replace(" ", "",$username);
                 
                 // Redirect page:
-                header("Location:welcome.php?message=$message");
+                header("Location:insights.php?message=$message");
             }
             else {
                 $message =  "Invalid username or password!";

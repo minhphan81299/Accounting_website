@@ -17,8 +17,9 @@
     }
 
     .register-form {
-        height:300px;
-        width: 300px;
+        margin-top: 200px;
+        height:550px;
+        width: 310px;
     }
     </style>
 </head>
@@ -55,7 +56,9 @@
                 </div>
             </fieldset>
 
-            <button type="submit" class="btn btn-secondary m-2" name="submit_btn" value="register">Register</button>
+            <div class="text-center">
+                <button type="submit" class="btn btn-secondary m-2" name="submit_btn" value="register">Register</button>
+            </div>
         </form>
     </div>
 

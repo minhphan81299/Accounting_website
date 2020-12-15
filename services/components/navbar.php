@@ -99,27 +99,34 @@
                 <a class="nav-link" href="index.php?page=logout">Logout</a>
             </li> -->
 
-        </ul>
-
-        <!-- Form Search -->
-        <form class="form-inline my-2 my-lg-0">
-            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-
             <?php
 
                 if (isset($_SESSION['logged']) && $_SESSION['logged'] == true) {
                     echo '
-                    <a href="index.php?page=logout" type="button" class="pl-0 btn bg-light">Logout</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php?page=logout">Logout</a>
+                    </li>
                     ';        
                 }
                 else {
                     echo '
-                    <a href="index.php?page=register" type="button" class="pl-0 btn bg-light">Register</a>
-                    <a href="index.php?page=login" type="button" class="pl-0 btn bg-light">Login</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php?page=register" data-toggle="modal" data-target="#test-modal">Register</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php?page=login">Login</a>
+                    </li>
                     ';
                 } 
             ?>
-        </form>
+
+        </ul>
+
+        <!-- Form Search -->
+        <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
     </div>
 </nav>
