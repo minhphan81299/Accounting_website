@@ -22,6 +22,7 @@ if (isset($_POST['signinUsername']) && isset($_POST['signinPassword'])) {
             $stmt->bind_result($userId, $userPassword);
             $stmt->fetch();
             if (password_verify($password, $userPassword)) {
+                session_start();
                 session_regenerate_id();
                 // setcookie('user-id', $userId, time() + 36000);
                 $_SESSION['loggedin'] = TRUE;
