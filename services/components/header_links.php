@@ -1,11 +1,34 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"> -->
-<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css"> -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<link rel="stylesheet" href="../../css/index_style.css" />
+<link rel="stylesheet" href="../../css/reponsive.css" />
 
 <style>
+    .bg-light {
+        background-color: #f8f9fa;
+    }
+
+    .purple-text {
+        color: #6f42c1;
+        font-size: 18px;
+    }
+
+    p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .space {
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
     footer {
         background: #4F2D7F;
         margin-left: 0;
@@ -72,5 +95,38 @@
         font-size: 1.3rem;
         line-height: 2.3rem;
         font-family: inherit;
+    }
+    .footer-container{
+        display:flex;
+    }
+    .footer-content{
+        flex-basis:60%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-logo{
+        flex-basis: 30%;
+       
+    }
+
+    .solution-container{
+            display: flex;
+        }
+    .navbar{
+        width: 100% !important;
+        position: static;
+    }
+    .solution-header{
+        flex-basis: 25%;
+    }
+    .solution-descript{
+        flex-basis:50%;
+    }
+    .solution-logo{
+        flex-basis:25%;
+        padding-left:10px;
+        padding-top:10px;
+       
     }
 </style>

@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audit Services</title>
 
-    <?php include "components/header_links.php" ?>
+    <?php include "../components/header_links.php" ?>
 </head>
 <body>
     
-    <?php include "components/navbar.php" ?>
+    <?php include "../components/navbar.php" ?>
 
-    <div class="container-fluids">
+    <!-- <div class="container-fluids"> -->
         <!-- Body -->
-        <div class="row mt-5 w-100">
-            <div class="col-12 col-md-3 bg-light">
-                <?php include "components/vertical_navbar.php" ?>
+        <div class="row mt-5 w-100 solution-container">
+            <div class="col-12 col-md-3 bg-light solution-header">
+                <?php include "../components/vertical_navbar.php" ?>
             </div>
 
-            <div class="col-12 col-md-6 p-4">
+            <div class="col-12 col-md-6 container-fluid p-4 solution-descript" style="padding-left: 25px; padding-right: 15px;">
                 <h1 class="m-4">Audit Services</h1>
 
-                <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
+                <!-- <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -29,17 +29,14 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <!-- <img class="d-block w-100" src="..." alt="First slide"> -->
                             <img class="img-fluid p-3" src="https://www.grantthornton.com.vn/globalassets/1.-member-firms/vietnam/vn/images/464x422/vn_0259-464x422.jpg" alt="this-is-meeting">
                         </div>
 
                         <div class="carousel-item">
-                            <!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
                             <img class="img-fluid p-3" src="https://www.grantthornton.com.vn/globalassets/1.-member-firms/vietnam/media/464x422/vn_0348-464x422.jpg" alt="this-is-another-meeting">
                         </div>
 
                         <div class="carousel-item">
-                            <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
                             <img class="img-fluid p-3" src="https://www.grantthornton.com.vn/globalassets/1.-member-firms/vietnam/vn/images/464x422/vn_0272-464x422.jpg" alt="technology">
                         </div>
                     </div>
@@ -51,9 +48,8 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
+                </div> -->
 
-                <div style="height: 5vh"></div>
                 <p>
                     Our services can strengthen your business and stakeholders’ confidence. You’ll receive professionally verified results and insights that help you grow.  
                     The Grant Thornton audit process gives us a thorough understanding of our Client’s business and requires us to assess the business risks and control systems, which puts us in a unique position to add value to your Company.
@@ -73,16 +69,16 @@
                 
             </div>
             
-            <div class="col-12 col-md-3 pt-5 bg-light pl-4">
+            <div class="col-12 col-md-3 pt-5 bg-light solution-logo">
                 <p class="">NATIONAL HEAD OF AUDIT AND ASSURANCE</p>
                 <p class="h6 font-weight-bold">Mr. Pham Tuan Anh</p>
                 <img src="https://www.grantthornton.com.vn/globalassets/1.-member-firms/vietnam/vn/images/37.-nguy-quoc-tuan---240x277.jpg" class="p-3 img-fluid" alt="jennie-kim">
             </div>
         </div>
-    </div>
+    <!-- </div> -->
 
-    <?php include "components/footer.php" ?>
-    <?php include "components/footer_links.php" ?>
+    <?php include "../components/footer.php" ?>
+    <?php include "../components/footer_links.php" ?>
 
 </body>
 </html>

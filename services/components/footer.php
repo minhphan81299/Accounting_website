@@ -1,9 +1,9 @@
 <div style="height: 5vh"></div>
 <footer>
     <div class="container">
-        <div class="row footer-row">
+        <div class="row footer-row footer-container">
             <!-- Footer -->
-            <div class="col-xs-12 col-sm-12 col-md-8 row link-list p-3" role="navigation">
+            <div class="col-xs-12 col-sm-12 col-md-8 row link-list p-3 footer-content" role="navigation">
                 <div class="col-4 col-md-4">
                     <div>
                         <div>
@@ -14,11 +14,11 @@
                         </div>
                         <ul class="footer-menu-list">
                                 <li>
-                                    <a href="#" aria-label="Meet our people" title="Meet our people">Meet our people</a>
+                                    <a class="navbar__footer-text-mobile" href="#" aria-label="Meet our people" title="Meet our people">Meet our people</a>
                                 </li>
 
                                 <li>
-                                    <a href="#" aria-label="Contact us" title="Contact us">Contact us</a>
+                                    <a class="navbar__footer-text-mobile" href="#" aria-label="Contact us" title="Contact us">Contact us</a>
                                 </li>
                         </ul>
                     </div>
@@ -34,15 +34,15 @@
                         </div>
                         <ul class="footer-menu-list">
                             <li>
-                                <a href="#" aria-label="About us" title="About us">About us</a>
+                                <a class="navbar__footer-text-mobile" href="#" aria-label="About us" title="About us">About us</a>
                             </li>
 
                             <li>
-                                <a href="#" aria-label="Careers" title="Careers">Careers</a>
+                                <a class="navbar__footer-text-mobile" href="#" aria-label="Careers" title="Careers">Careers</a>
                             </li>
                             
                             <li>
-                                <a href="#" aria-label="Press" title="Press">Press</a>
+                                <a class="navbar__footer-text-mobile" href="#" aria-label="Press" title="Press">Press</a>
                             </li>
                         </ul>
                     </div>
@@ -57,26 +57,26 @@
                         </div>
                         <ul class="footer-menu-list">
                                 <li>
-                                    <a href="#" aria-label="Privacy Policy" title="Privacy Policy">Privacy Policy</a>
+                                    <a class="navbar__footer-text-mobile" href="#" aria-label="Privacy Policy" title="Privacy Policy">Privacy Policy</a>
                                 </li>
 
                                 <li>
-                                    <a href="#" aria-label="Cookie policy" title="Cookie policy">Cookie policy</a>
+                                    <a class="navbar__footer-text-mobile" href="#" aria-label="Cookie policy" title="Cookie policy">Cookie policy</a>
                                 </li>
 
                                 <li>
-                                    <a href="#" aria-label="Disclaimer" title="Disclaimer">Disclaimer</a>
+                                    <a class="navbar__footer-text-mobile" href="#" aria-label="Disclaimer" title="Disclaimer">Disclaimer</a>
                                 </li>
 
                                 <li>
-                                    <a href="#" aria-label="Site map" title="Site map">Site map</a>
+                                    <a class="navbar__footer-text-mobile" href="#" aria-label="Site map" title="Site map">Site map</a>
                                 </li>
                         </ul>
                     </div>
                 </div>
             </div>
     
-            <div class="col-xs-12 col-sm-12 col-md-4 social-media-float footer-social-media">
+            <div class="col-xs-12 col-sm-12 col-md-4 social-media-float footer-social-media footer-logo">
                 <div class="social-media">
                     <ul class="social-media-list">
                         <li>
@@ -103,7 +103,7 @@
         </div>
     </div>
 
-    <div class="text-center mt-3">
+    <div style="text-align:center;margin-top:40px" class="text-center mt-3">
         <small class="d-block text-light">Accounting Services © 2020-2025</small>
     </div>
 

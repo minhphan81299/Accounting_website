@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Licensing Services</title>
 
-    <?php include "components/header_links.php" ?>
+    <?php include "../components/header_links.php" ?>
 </head>
 <body>
     
-    <?php include "components/navbar.php" ?>
+    <?php include "../components/navbar.php" ?>
 
     <div class="container-fluids">
         <!-- Body -->
-        <div class="row mt-5 w-100">
-            <div class="col-12 col-md-3 bg-light">
-                <?php include "components/vertical_navbar.php" ?>
+        <div class="row mt-5 w-100 solution-container">
+            <div class="col-12 col-md-3 bg-light solution-header">
+                <?php include "../components/vertical_navbar.php" ?>
             </div>
 
-            <div class="col-12 col-md-6 p-4">
+            <div class="col-12 col-md-6 p-4 solution-descript" style="padding-left: 25px; padding-right: 10px;">
                 <h1 class="m-4">Licensing Service</h1>
 
                 <h2>
@@ -103,15 +103,15 @@
 
             </div>
             
-            <div class="col-12 col-md-3 pt-5 bg-light p-4">
-                <p class="h6 font-weight-bold">How can we help</p>
+            <div class="col-12 col-md-3 pt-5 bg-light p-4 solution-logo" style="margin-left: 0px">
+                <!-- <p class="h6 font-weight-bold">How can we help</p> -->
                 <img src="https://www.grantthornton.com.vn/globalassets/page-banners/banner_global3orange.jpg" class="col-8 pr-3 img-fluid" alt="business-developer-director">
             </div>
         </div>
     </div>
 
-    <?php include "components/footer.php" ?>
-    <?php include "components/footer_links.php" ?>
+    <?php include "../components/footer.php" ?>
+    <?php include "../components/footer_links.php" ?>
 
 </body>
 </html>
