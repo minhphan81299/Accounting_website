@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insights</title>
-    
+
     <?php include "../components/header_links.php" ?>
 </head>
 
@@ -15,7 +15,7 @@
 <body>
     <?php include "../components/navbar.php" ?>
 
-    <div class="banner" style="background-image: url('https://www.grantthornton.com.vn/globalassets/1.-member-firms/global/new-homepage/man-on-tube-1440x600.jpg');">
+    <div class="banner" style="background-image: url('../imgs/banner-insights.webp');">
         <div class="banner-text">
             <div class="banner-header">NAVIGATING UNCERTAIN TIMES</div>
             <h1 class="banner-title">Supporting you to navigate the impact of COVID-19
@@ -151,7 +151,8 @@
         </div>
 
     </div>
-    
+
+    <?php include "../components/footer.php" ?>
     <?php include "../components/footer_links.php" ?>
 
 </body>

@@ -12,6 +12,7 @@ const menuMobile = document.getElementById("menu-mobile-list");
 const serviceList=document.getElementById("service-item-mobile");
 const serviceItem=document.getElementById("service-mobile");
 
+
 ToggleMenuMobile.addEventListener('click',()=>{
     const style=window.getComputedStyle(menuMobile);
     if(style.getPropertyValue('display')=='none'){

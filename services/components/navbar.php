@@ -17,7 +17,7 @@
                 <a href="" class="language-text" id='appear'> EN</a>
                 <a href="" class="language-text" id='disappear1'>JA</a>
                 <a href="" class="language-text" id='disappear2'>VI</a>
-                <a href="" class="language-text" id='disappear'>EN2</a>
+                <a href="" class="language-text" id='disappear'>FA</a>
                 <div class="login">
                     <i style="margin-right:20px" class="fas fa-user"></i>
                     <?php
@@ -49,10 +49,10 @@
 
         </li>
         <li class="nav-list">
-            <a href="" class="navbar__footer-text">Meet our people</a>
+            <a href="../pages/meet_people.php" class="navbar__footer-text">Meet our people</a>
         </li>
         <li class="nav-list">
-            <a href="" class="navbar__footer-text">Locations</a>
+            <a href="../pages/location.php" class="navbar__footer-text">Locations</a>
         </li>
         <li class="nav-list">
             <a href="" class="navbar__footer-text">Careers</a>
@@ -113,10 +113,10 @@
                 </ul>
             </li>
             <li class="nav-list-mobile">
-                <a href="" class="navbar__footer-text-mobile">Meet our people</a>
+                <a href="../pages/meet_people.php" class="navbar__footer-text-mobile">Meet our people</a>
             </li>
             <li class="nav-list-mobile">
-                <a href="" class="navbar__footer-text-mobile">Locations</a>
+                <a href="../pages/location.php" class="navbar__footer-text-mobile">Locations</a>
             </li>
             <li class="nav-list-mobile">
                 <a href="" class="navbar__footer-text-mobile">Careers</a>
