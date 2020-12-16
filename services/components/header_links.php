@@ -19,14 +19,10 @@
         font-size: 18px;
     }
 
-    p {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     .space {
-        padding-top: 10px;
-        padding-right: 10px;
+        padding: 10px;
+        font-size: 1.1rem;
+        line-height: 2.0rem;
     }
 
     footer {
@@ -113,20 +109,26 @@
     .solution-container{
             display: flex;
         }
+    
     .navbar{
         width: 100% !important;
         position: static;
     }
+    
     .solution-header{
         flex-basis: 25%;
     }
+    
     .solution-descript{
         flex-basis:50%;
     }
+    
     .solution-logo{
         flex-basis:25%;
+        height: 50vh;
         padding-left:10px;
         padding-top:10px;
-       
+        padding-right: 10px
+        background-color: #fff;
     }
 </style>

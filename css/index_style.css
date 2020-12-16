@@ -379,7 +379,6 @@ color: #de002e;
 }
 .feature-item__image{
     flex-basis: 65%;
-    background-image:url('https://www.grantthornton.com.vn/globalassets/1.-member-firms/vietnam/media/464x422/gettyimages-184829262_gtil.jpg') ;
     background-size: cover;
     transition: all .6s 0s cubic-bezier(0.4, 0, 0.2, 1);
 }

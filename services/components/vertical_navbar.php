@@ -11,7 +11,7 @@
         </li>
 
         <li class="nav-item active">
-            <a class="purple-text navbar__footer-text-mobile" href="#">Audit and Assurance Services</a>
+            <span class="purple-text navbar__footer-text-mobile" href="#">Audit and Assurance Services</span>
 
             <ul class="navbar-nav" style="list-style-type:none; padding-left: 15px">
                 <li class="nav-item active">
@@ -29,7 +29,7 @@
         </li>
 
         <li class="nav-item active">
-            <a class="purple-text navbar__footer-text-mobile" href="#">Tax Services</a>
+            <span class="purple-text navbar__footer-text-mobile" href="#">Tax Services</span>
 
             <ul class="navbar-nav" style="list-style-type:none; padding-left: 15px">
                 <li class="nav-item active">

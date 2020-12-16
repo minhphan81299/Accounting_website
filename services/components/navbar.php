@@ -164,8 +164,8 @@
         <div id="drop-left-item1">
             <!-- <h2 class="drop-left-header" id="drop-left-header">
                 Solutions for your business
-            </h2>
-            <div class="drop-left-item" id="drop-left-item">
+            </h2> -->
+            <!-- <div class="drop-left-item" id="drop-left-item">
                 <a href="">Service Item 1</a>
             </div> -->
         </div>

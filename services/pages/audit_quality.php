@@ -15,31 +15,31 @@
 
     <div class="container-fluids">
         <!-- Body -->
-        <div class="row mt-5 w-100 solution-container">
-            <div class="col-12 col-md-3 bg-light solution-header">
+        <div class="row mt-5 w-100 bg-light solution-container">
+            <div class="col-12 col-md-3 solution-header">
                 <?php include "../components/vertical_navbar.php" ?>
             </div>
 
             <div class="col-12 col-md-6 p-4 solution-descript" style="padding-left: 30px; padding-right: 10px;">
-                <h1 class="m-4">Audit Quality</h1>
+                <h1 style="margin: 10px 5px;">Audit Quality</h1>
 
-                <h2>
+                <h2  style="margin: 10px 5px;">
                     <strong>Partner led </strong>
                 </h2>
                 
-                <p>The Audit Partners will lead from the front throughout the audit cycle, taking full responsibility for the quality of our audit services.</p>
+                <p class="space">The Audit Partners will lead from the front throughout the audit cycle, taking full responsibility for the quality of our audit services.</p>
                 
                 <h2>
                     <strong>Risk focused </strong>
                 </h2>
                 
-                <p>We will focus on areas of greater risk in your business. Issues are identified and addressed at an early stage.</p>
+                <p class="space">We will focus on areas of greater risk in your business. Issues are identified and addressed at an early stage.</p>
                 
                 <h2>
                     <strong>Highly automated</strong>
                 </h2>
                 
-                <p>
+                <p class="space">
                     We adopted Horizon - an innovative audit approach, via the use of our audit software Voyager and supplementary software Tbeam and Pentana Checker. This enables the audit team to generate audit programs that are tailored to client specific situations and focused on the identified risk areas. This approach helps to deliver more extensive and proactive advice.
                 </p>
                 
@@ -48,21 +48,21 @@
                     <strong>Planning the Audit</strong>
                 </h3>
                 
-                <p>
+                <p class="space">
                     <strong>What we do </strong>
                 </p>
                 
-                <ul>
+                <ul class="space">
                     <li>extend our knowledge of the business to assess risk</li>
                     <li>understand the concerns of management</li>
                     <li>liaison with overseas auditors</li>
                 </ul>
                 
-                <p>
+                <p class="space">
                     <strong>What you see </strong>
                 </p>
                 
-                <ul>
+                <ul class="space">
                     <li>regular contact between the management and our audit team</li>
                 </ul>
                 
@@ -71,20 +71,20 @@
                     <strong>Agreeing the Audit strategy</strong>
                 </h3>
                 
-                <p>
+                <p class="space">
                     <strong>What we do</strong>
                 </p>
                 
-                <ul>
+                <ul class="space">
                     <li>assess materiality</li>
                     <li>produce an audit strategy memorandum</li>
                 </ul>
 
-                <p>
+                <p class="space">
                     <strong>What you see</strong>
                 </p>
                 
-                <ul>
+                <ul class="space">
                     <li>meetings to discuss the content of the audit strategy memorandum and timetable</li>
                 </ul>
                 
@@ -93,22 +93,22 @@
                     <strong>Fieldwork stage</strong>
                 </h3>
                 
-                <p>
+                <p class="space">
                     <strong>What we do</strong>
                 </p>
                 
-                <ul>
+                <ul class="space">
                     <li>assess effectiveness of controls</li>
                     <li>revisit initial risk assessment</li>
                     <li>complete substantive testing programmes</li>
                     <li>evaluate results of work</li>
                 </ul>
 
-                <p>
+                <p class="space">
                     <strong>What you see</strong>
                 </p>
                 
-                <ul>
+                <ul class="space">
                     <li>prompt reporting of issues as they arise</li>
                     <li>meetings with management to discuss progress</li>
                     <li>locally based knowledgeable staff</li>
@@ -119,29 +119,27 @@
                     <strong>Reporting </strong>
                 </h3>
                 
-                <p>
+                <p class="space">
                     <strong>What we do</strong>
                 </p>
                 
-                <ul>
+                <ul class="space">
                     <li>prepare and issue a detailed agenda on key issues</li>
                     <li>issue an audit opinion</li>
                 </ul>
 
-                <p>
+                <p class="space">
                     <strong>What you see</strong>
                 </p>
                 
-                <ul>
+                <ul class="space">
                     <li>meetings to discuss any issues from the audit</li>
                     <li>audit opinion on the financial statements</li>
                     <li>reports and attendance at Audit Committee meetings</li>
                 </ul>
 
             </div>
-            
-            <div class="col-12 col-md-3 pt-5 bg-light solution-logo">
-            </div>
+           
         </div>
     </div>
     

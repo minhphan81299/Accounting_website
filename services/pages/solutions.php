@@ -15,12 +15,12 @@
 
     <!-- <div class="container-fluids"> -->
         <!-- Body -->
-        <div class="row mt-5 w-100 solution-container">
-            <div class="col-12 col-md-3 bg-light solution-header">
+        <div class="row mt-5 w-100 bg-light solution-container">
+            <div class="col-12 col-md-3 solution-header">
                 <?php include "../components/vertical_navbar.php" ?>
             </div>
 
-            <div class="col-12 col-md-6 container-fluid p-4 solution-descript">
+            <div class="col-12 col-md-6 container-fluid solution-descript">
                 <h1 style="margin: 10px 5px;">Solutions for your business </h1>
 
                 <p class="space">
@@ -53,10 +53,10 @@
 
             </div>
 
-            <div class="col-12 col-md-3 pt-5 bg-light solution-logo">
+            <div class="col-12 col-md-3 solution-logo">
                 <p class="">BUSINESS DEVELOPMENT DIRECTOR</p>
-                <p class="h6 font-weight-bold">Mr. Trinh Thi Tuyet An</p>
-                <img src="https://www.grantthornton.com.vn/globalassets/1.-member-firms/vietnam/vn/images/trinh-thi-tuyet-anh-240x277.jpg" class="pr-3 img-fluid" alt="business-developer-director">
+                <p style="font-weight: bold; margin-bottom: 10px;">Mr. Trinh Thi Tuyet An</p>
+                <img src="https://www.grantthornton.com.vn/globalassets/1.-member-firms/vietnam/vn/images/trinh-thi-tuyet-anh-240x277.jpg" class="pr-3 img-fluid" alt="ms-trinh-thi-tuyet-an">
             </div>
         </div>
     <!-- </div> -->
